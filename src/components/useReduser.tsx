@@ -1,6 +1,6 @@
 import {useReducer} from "react";
 
-const reducer = (state, action) =>{
+const reducer = (state: any, action: any) =>{
     if(action.type === "INCREMENT"){
         return {
             age: state.age + 1
